@@ -69,3 +69,11 @@ El sistema se construyó en tres incrementos verificables:
 - **A** — Filtrado por media móvil (reducción de ruido medida).
 - **B** — Máquina de estados + histéresis + alarma intermitente.
 - **C** — Detección de fallos (`FAULT`) + watchdog hardware.
+
+## Montaje real
+
+![Montaje del monitor de nivel en protoboard](docs/img/montaje.png)
+
+Potenciómetro (entrada analógica) y buzzer pasivo (alarma) sobre protoboard,
+conectados a la ESP32-S3. El multímetro se usó para verificar las conexiones
+antes de energizar.
