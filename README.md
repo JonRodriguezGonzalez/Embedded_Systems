@@ -21,7 +21,7 @@ extremo a extremo (sensor → microcontrolador → comunicación fiable → host
 |------|----------|-----------|--------|
 | 1 | [adc-pot-esp32s3](adc-pot-esp32s3/) | ADC, cuantización, ruido, saturación, requisitos trazables | ✅ Completado |
 | 2 | [fase2-monitor-fsm](fase2-monitor-fsm/) | FSM, filtrado, histéresis, watchdog, detección de fallos | ✅ Completado |
-| 3 | *(planificado)* Protocolo de comunicación fiable | UART, framing, CRC, ACK/retransmisión | ⬜ |
+| 3 | [fase3-uart-protocolo](fase3-uart-protocolo/) | UART, framing, CRC, ACK/retransmisión, números de secuencia | ✅ Completado |
 | 4 | *(planificado)* Módulo de kernel receptor | Linux char device driver, `/dev`, I2C/SPI | ⬜ |
 
 ## Enfoque
