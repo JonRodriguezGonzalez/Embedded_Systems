@@ -112,3 +112,11 @@ y el de duplicados absorbidos (`dup`) lo confirman.
 - **B** — framing + CRC16 (integridad).
 - **C1** — número de secuencia + ACK + retransmisión por timeout.
 - **C2** — inyección de fallos (descarte de ACKs) y detección de duplicados.
+
+## Montaje real
+
+![Montaje de la Fase 3: ESP32-S3 y Raspberry Pi comunicándose por UART](docs/img/montaje.png)
+
+A la izquierda la Raspberry Pi, a la derecha la ESP32-S3, unidas por los cables
+UART (TX/RX cruzados + GND). En la protoboard, el potenciómetro y el buzzer de la
+Fase 2; la fuente de alimentación al fondo.
